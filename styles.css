@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url(loop-background.gif);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+
+.login-form {
+    display: block;
+    width: 400px;
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.342);
+}
+
+.login-form h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.input-box input {
+    display: block;
+    width: 85%;
+    height: 30px;
+    margin: 5px auto;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+    color: aliceblue;
+    background: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 40px;
+}
+
+.input-box input::placeholder {
+    color: aliceblue;
+}
+
+.remember-checkbox {
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button {
+    width: 70%;
+    height: 30px;
+    font-size: 20px;
+    display: block;
+    border-color: rgba(57, 26, 63, 0.267);
+    border-radius: 5px;
+    margin: 10px auto;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.486);
+}
+
+.button:hover {
+    background-color:rgb(108, 179, 179);
+}
+
+.forgot-link a {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.forgot-link a:hover {
+    color: rgb(108, 179, 179);
+}
+
+.register-link a {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.register-link a:hover {
+    color: rgb(108, 179, 179);
+}
+
+footer {
+    text-align: center;
+    height: 5vh;
+    background-color: rgba(57, 26, 63, 0.267);
+    color: white;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
